@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;com.task.commons&apos; to &apos;StereotypeUsingProper01/src&apos;&#x0D;&#x0A;- Original project: &apos;StrategyDesignUsingPropertiesFile&apos;&#x0D;&#x0A;- Destination element: &apos;StereotypeUsingProper01/src&apos;&#x0D;&#x0A;- Original element: &apos;StrategyDesignUsingPropertiesFile/src/main/java/com.task.commons&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=StereotypeUsingProper01/src" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.task.commons" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1763400538618" version="1.0"/>
+</session>

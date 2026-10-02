@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy Project &apos;SpringBoot-EmailSender&apos;" description="Copy Project &apos;SpringBoot-EmailSender&apos;" destination="C:/Users/hp/eclipse-workspace/spring" element="/SpringBoot-EmailSender" flags="7" id="org.eclipse.ltk.core.refactoring.copyproject.resource" name="SpringBoot-EmailSenderNewProject" stamp="1770533698312"/>
+</session>

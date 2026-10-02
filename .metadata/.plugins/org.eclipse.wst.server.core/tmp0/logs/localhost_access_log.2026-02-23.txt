@@ -1,0 +1,9 @@
+127.0.0.1 - - [23/Feb/2026:22:05:44 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [23/Feb/2026:22:05:45 +0530] "GET /SpringBoot-Rest-project03/ HTTP/1.1" 404 725
+0:0:0:0:0:0:0:1 - - [23/Feb/2026:22:05:46 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [23/Feb/2026:22:05:59 +0530] "GET /SpringBoot-Rest-project03/report HTTP/1.1" 404 731
+0:0:0:0:0:0:0:1 - - [23/Feb/2026:22:06:21 +0530] "GET /SpringBoot-Rest-project03/report HTTP/1.1" 404 731
+0:0:0:0:0:0:0:1 - - [23/Feb/2026:22:10:12 +0530] "GET /SpringBoot-Rest-project03/report HTTP/1.1" 404 731
+127.0.0.1 - - [23/Feb/2026:22:16:38 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [23/Feb/2026:22:16:39 +0530] "GET /SpringBoot-Rest-project03/ HTTP/1.1" 404 725
+0:0:0:0:0:0:0:1 - - [23/Feb/2026:22:17:10 +0530] "GET /SpringBoot-Rest-project03/Rest03/report HTTP/1.1" 404 742

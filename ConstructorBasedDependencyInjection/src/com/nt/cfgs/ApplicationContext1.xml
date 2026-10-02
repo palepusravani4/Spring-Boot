@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans 
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+     <bean id="e1" class="com.nt.sbeans.Employee">
+    <constructor-arg name="empId" value="101"></constructor-arg> 
+   <constructor-arg name="empName" value="Alice"></constructor-arg> 
+   <constructor-arg name="desi" value="hyd"></constructor-arg> 
+   
+     </bean>
+      <bean id="e2" class="com.nt.sbeans.Employee">
+    <constructor-arg name="empId" value="102"></constructor-arg> 
+   <constructor-arg name="empName" value="Alice"></constructor-arg> 
+   <constructor-arg name="desi" value="hyd"></constructor-arg> 
+   
+     </bean>
+     <bean id="p1" class="com.nt.sbeans.Project">
+    <constructor-arg name="projectId" value="101"></constructor-arg> 
+   <constructor-arg name="proName" value="Alice"></constructor-arg> 
+   <constructor-arg name="duration" value="2"></constructor-arg> 
+   
+     </bean>
+      <bean id="p2" class="com.nt.sbeans.Project">
+    <constructor-arg name="projectId" value="102"></constructor-arg> 
+   <constructor-arg name="proName" value="Alice"></constructor-arg> 
+   <constructor-arg name="duration" value="2"></constructor-arg> 
+   
+     </bean>
+      <bean id="m1" class="com.nt.sbeans.Manager">
+    <constructor-arg name="mName" value="David"></constructor-arg> 
+    <constructor-arg>
+  <map>
+  <entry key-ref="e1" value-ref="p1"/>
+  <entry key-ref="e2" value-ref="p2"/>
+  </map>
+  </constructor-arg>
+   
+     </bean>
+      <bean id="m2" class="com.nt.sbeans.Manager">
+    <constructor-arg name="mName" value="Rohit"></constructor-arg> 
+    <constructor-arg>
+  <map>
+  <entry key-ref="e1" value-ref="p1"/>
+  <entry key-ref="e2" value-ref="p2"/>
+  </map>
+  </constructor-arg>
+  
+   
+     </bean>
+      <bean id="d1" class="com.nt.sbeans.Department">
+    <constructor-arg name="deptName" value="It"></constructor-arg> 
+   <constructor-arg>
+   <list>
+   <ref bean="m1"/>
+   <ref bean="m2"/>
+   </list>
+   </constructor-arg> 
+    
+   </bean>
+   </beans>
+     
+     
+     
+     
+     
+     
+    

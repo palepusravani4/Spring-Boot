@@ -1,0 +1,4 @@
+From openjdk:21
+COPY target/SB_Docker.jar /hp/app/
+Workdir /hp/app
+Entrypoint ["java","-jar","SB_Docker.jar"]

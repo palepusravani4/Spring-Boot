@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans 
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+     
+     
+   <bean id="c1"  class="com.nt.sbeans.Course"> 
+   <constructor-arg name="courseId" value="101"></constructor-arg> 
+   <constructor-arg name="courseName" value="Java"></constructor-arg> 
+   <constructor-arg name="duration" value="3"></constructor-arg> 
+   
+   </bean>
+   <bean id="c2"  class="com.nt.sbeans.Course"> 
+   <constructor-arg name="courseId" value="102"></constructor-arg> 
+   <constructor-arg name="courseName" value="spring fundamentals"></constructor-arg> 
+   <constructor-arg name="duration" value="2"></constructor-arg> 
+   
+   </bean>
+   <bean id="c3"  class="com.nt.sbeans.Course"> 
+   <constructor-arg name="courseId" value="103"></constructor-arg> 
+   <constructor-arg name="courseName" value="python"></constructor-arg> 
+   <constructor-arg name="duration" value="6"></constructor-arg> 
+   </bean>
+   <bean id="s1"  class="com.nt.sbeans.Student"> 
+   <constructor-arg name="stuId" value="101"></constructor-arg> 
+   <constructor-arg name="stuName" value="Alice"></constructor-arg> 
+   <constructor-arg>
+   <list>
+   <ref bean="c1"/>
+   <ref bean="c2"/>
+   
+   </list>
+   </constructor-arg> 
+   </bean>
+   <bean id="s2"  class="com.nt.sbeans.Student"> 
+   <constructor-arg name="stuId" value="102"></constructor-arg> 
+   <constructor-arg name="stuName" value="Bob"></constructor-arg> 
+   <constructor-arg>
+   <list>
+   <ref bean="c1"/>
+    <ref bean="c2"/>
+   </list>
+   </constructor-arg> 
+   </bean>
+   
+   <bean id="u1"  class="com.nt.sbeans.University"> 
+   <constructor-arg name="uniName" value="Oxford"></constructor-arg> 
+   <constructor-arg>
+   <list>
+   <ref bean="s1"/>
+    <ref bean="s2"/>
+   </list>
+   </constructor-arg> 
+   </bean>
+   
+  </beans>
+         

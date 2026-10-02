@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy Project &apos;SpringBoot-MVC-Project01&apos;" description="Copy Project &apos;SpringBoot-MVC-Project01&apos;" destination="C:/Users/hp/eclipse-workspace/spring" element="/SpringBoot-MVC-Project01" flags="7" id="org.eclipse.ltk.core.refactoring.copyproject.resource" name="SpringBoot-MVC-Project02" stamp="1769960225327"/>
+</session>
